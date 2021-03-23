@@ -1,2 +1,3 @@
 s
 aaa commit
+COMMIT
