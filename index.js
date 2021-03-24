@@ -38,7 +38,7 @@ server(
   error(ctx => status(500).send("Error: " + ctx.error.message))
 ).then(ctx => {
   console.log(chalk`
-  {green [ OK ]} Server launched on {bold http://localhost:${
+  {green [ OK ]} Serverlaunched on {bold http://localhost:${
     ctx.options.port
   }/}`);
 });
